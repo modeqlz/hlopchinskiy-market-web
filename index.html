@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +8,21 @@
     body {
       margin: 0;
       padding: 0;
+      background: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #fff;
+      min-height: 100vh;
       font-family: Arial, sans-serif;
     }
     .container {
       position: relative;
       width: 470px;
+      max-width: 100%;
     }
     .bg img {
       width: 100%;
+      height: auto;
       display: block;
     }
     .title {
@@ -44,7 +47,7 @@
     .buy {
       position: absolute;
       top: 140px;
-      left: 50px;
+      left: 40px;
       font-size: 22px;
       font-weight: bold;
       color: green;
@@ -61,7 +64,7 @@
     .sell {
       position: absolute;
       top: 140px;
-      right: 50px;
+      right: 40px;
       font-size: 22px;
       font-weight: bold;
       color: blue;
@@ -104,8 +107,9 @@
 </head>
 <body>
   <div class="container">
+    <!-- фон (главная картинка, которую ты прислал) -->
     <div class="bg">
-      <img src="https://i.ibb.co/QcsZqNc/Group-1.png" alt="background"> <!-- ссылка на фон -->
+      <img src="/background.jpg" alt="background">
     </div>
     <div class="title">HLOPCHINSKIY MARKET</div>
     <div class="subtitle">NATISNI SHOB BYTI POTYJNIM</div>
@@ -115,7 +119,7 @@
     <div class="nas">НАС</div>
     <div class="rekom">РЕКОМЕНДУЭ</div>
     <div class="avatar">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Volodymyr_Zelensky_Official_portrait.jpg" alt="avatar">
+      <img src="/avatar.jpg" alt="avatar">
     </div>
   </div>
 </body>
